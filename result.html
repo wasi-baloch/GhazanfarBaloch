@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+    <script>
+       // Your web app's Firebase configuration
+       var firebaseConfig = {
+         apiKey: "AIzaSyBOVOviLoZ-__33eq9alyDXF1A9i3QDTgc",
+         authDomain: "ghazanfar-baloch.firebaseapp.com",
+         databaseURL: "https://ghazanfar-baloch.firebaseio.com",
+         projectId: "ghazanfar-baloch",
+         storageBucket: "ghazanfar-baloch.appspot.com",
+         messagingSenderId: "22033974155",
+         appId: "1:22033974155:web:fcaaa7fa27005e4ffca58e",
+         measurementId: "G-J176Y5KD2G"
+       };
+       // Initialize Firebase
+       firebase.initializeApp(firebaseConfig);
+       // firebase.analytics();
+     </script>
+
+</head>
+<body onload="renderResult()">
+    
+    <div id="result"></div>
+
+
+    
+    <script src="app.min.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>

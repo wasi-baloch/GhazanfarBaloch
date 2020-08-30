@@ -1,0 +1,149 @@
+body {
+  padding: 5px;
+}
+.navbar {
+    background-color:#9BCB58   !important;
+}
+.navbar-brand {
+    
+   color: azure !important;
+
+}
+.nav-link{
+
+color: white !important;
+
+}
+.man{
+
+background-color: black !important;
+
+width: 100%;
+height: 300px;   
+
+border-radius: 20px;
+margin-top: 10px;
+  }
+
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .left{
+width: 224px;
+margin: 0 auto;
+
+
+  }
+  
+    
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .jawad{
+
+  color: white;
+ margin-left: 40px;
+  margin-top: 70px;
+  
+  }
+.About{
+margin-top: 0 auto;
+margin-top: 10px;
+color: #9BCB58;
+border: 5px solid;
+border-radius: 10px;
+
+
+
+}
+
+.Test{
+background-color: gray;
+margin: 0 auto;
+margin-top: 20px;
+
+
+}
+.class{
+text-shadow: grey;
+box-shadow: grey;
+}
+.bg-info {
+margin-top: 10px;
+border-radius: 20px;
+background-color: #9BCB58 !important;
+
+color: blueviolet !important;
+
+
+}
+.bg-info:hover {
+  background-color: yellow !important;
+}
+.btn-secondary {
+background-color: #9BCB58;
+
+}
+.btn-secondary:hover{
+background-color: chartreuse !important;
+
+
+}
+.rounded {
+
+width: 50%;
+border: 9px solid;
+border-radius: 20px;
+margin-top: 20px;
+padding: 10px;
+
+}
+
+.khan{
+
+margin: 0 auto;
+
+}
+
+.formGroupExampleInput{
+margin: 0 auto;
+
+}
+.class{
+background-color: white;
+height: 200px;
+margin-top: 40px;
+border-radius: 15px;
+
+}
+.btn-primary{
+margin-left: 20px;
+
+}
+.jawa{
+margin-left: 10px;
+
+
+}
+.Q{
+  background-color: white;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+.text-justify{
+margin-left: 10px;
+margin-top: 5px;
+
+}
+.form-check{
+margin-left: 10px;
+
+margin-top: 10px;
+
+}
+  
